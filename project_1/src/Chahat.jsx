@@ -1,6 +1,8 @@
 function Vr(){
+    const name = "chahat vora"
     return(
-        <h2>vr chahat</h2>
+        
+        <h2>{name}</h2>
     )
 }
 export default Vr
