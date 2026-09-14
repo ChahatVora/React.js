@@ -21,3 +21,20 @@
 - if i give value according to their property then it is working.
 
 - here in element in {here we give evaluated expression (final outcome)}.
+
+-reconciliation in this two tree are compared ,one is browser tree and another is updated tree and both are compared and where then update where needed.also it is called virtual DOM.
+
+- updation is based on optimization algorithm where which is updated first based on priority.
+
+- in some cases you give the priority or react give.
+
+-the comparesion between these two tree is done by fiber which is complex algorithm.
+
+-here below is main things.
+
+-pause work and come back to it later.
+assign priority to different types of work.
+reuse previously completed work.
+abort work if it's no longer needed.
+
+- for more information https://github.com/acdlite/react-fiber-architecture.
