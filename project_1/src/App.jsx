@@ -6,7 +6,14 @@ function App() {
 
   const addValue = () => {
     if (counter >= 0 & counter <= 19){
-      setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      // setCounter(counter + 1)
+      setCounter(counter => counter + 1)
+      setCounter(counter => counter + 1)
+      setCounter(counter => counter + 1)
+      setCounter(counter => counter + 1)
     }
     
   }
